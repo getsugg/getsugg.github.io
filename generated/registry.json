@@ -1,0 +1,141 @@
+{
+  "scripts": [
+    {
+      "name": "bun",
+      "description": "Fast JavaScript runtime, package manager, bundler, and test runner.",
+      "source": "bun/index.ts",
+      "deps": [
+        "npm/utils.ts"
+      ],
+      "i18n": {
+        "bun": [
+          "zh-CN",
+          "en"
+        ]
+      }
+    },
+    {
+      "name": "docker",
+      "description": "A self-sufficient runtime for containers",
+      "source": "docker/index.ts",
+      "deps": [],
+      "i18n": {
+        "docker": [
+          "zh-CN",
+          "en"
+        ]
+      }
+    },
+    {
+      "name": "git",
+      "description": "Distributed version control system",
+      "source": "git/index.ts",
+      "deps": [],
+      "i18n": {
+        "git": [
+          "zh-CN",
+          "en"
+        ]
+      }
+    },
+    {
+      "name": "npm",
+      "description": "Node package manager",
+      "source": "npm/index.ts",
+      "deps": [
+        "npm/utils.ts"
+      ],
+      "i18n": {
+        "npm": [
+          "zh-CN",
+          "en"
+        ]
+      }
+    },
+    {
+      "name": "nub",
+      "description": "nub — the all-in-one Node.js toolkit",
+      "source": "nub/index.ts",
+      "deps": [
+        "npm/utils.ts"
+      ],
+      "i18n": {
+        "nub": [
+          "zh-CN",
+          "en"
+        ]
+      }
+    },
+    {
+      "name": "pm2",
+      "description": "Production process manager for Node.js applications",
+      "source": "pm2/index.ts",
+      "deps": [],
+      "i18n": {
+        "pm2": [
+          "zh-CN",
+          "en"
+        ]
+      }
+    },
+    {
+      "name": "pnpm",
+      "description": "Fast, disk space efficient package manager",
+      "source": "pnpm/index.ts",
+      "deps": [
+        "npm/utils.ts"
+      ],
+      "i18n": {
+        "pnpm": [
+          "zh-CN",
+          "en"
+        ]
+      }
+    },
+    {
+      "name": "scoop",
+      "description": "Scoop command-line installer — Windows package manager",
+      "source": "scoop/index.ts",
+      "deps": [],
+      "i18n": {
+        "scoop": [
+          "zh-CN",
+          "en"
+        ]
+      }
+    },
+    {
+      "name": "sugg",
+      "description": "Shell completion engine",
+      "source": "sugg/index.ts",
+      "deps": [],
+      "i18n": {
+        "sugg": [
+          "zh-CN",
+          "en"
+        ]
+      }
+    },
+    {
+      "name": "vp",
+      "description": "Vite+ - Unified development toolkit",
+      "source": "vp/index.ts",
+      "deps": [
+        "npm/utils.ts"
+      ],
+      "i18n": {
+        "vp": [
+          "zh-CN",
+          "en"
+        ]
+      }
+    },
+    {
+      "name": "winget",
+      "description": "WinGet 命令行实用工具可从命令行安装应用程序和其他程序包",
+      "source": "winget.ts",
+      "deps": [],
+      "i18n": {}
+    }
+  ]
+}
